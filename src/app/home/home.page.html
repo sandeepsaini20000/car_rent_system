@@ -1,20 +1,49 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="primary">
     <ion-title>
-      Blank
+      Car Rent System
     </ion-title>
   </ion-toolbar>
 </ion-header>
+<ion-content>
+  <div class="background">
+    <img src="../../assets/teximage.jpg">
+  </div>
+  <div>
+    <ion-row>
+      <ion-button expand="block" [routerLink]="['/details']">form</ion-button>
+    </ion-row>
+  <ion-row>
+    <ion-col>
+      <ion-card>
+        <img class="image" src="../../assets/xuv.jpeg">
+        <ion-card-header>
+          <ion-card-title>XYV 700</ion-card-title>
+          <ion-card-title>20 per km</ion-card-title>
+          <ion-card-subtitle>Book Your Texi now</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+        </ion-card-content>
+        <ion-button >book</ion-button>
+        <ion-button >show</ion-button>
+      </ion-card>
+    </ion-col>
+    <ion-col>
+      <ion-card>
+        <img class="image" src="../../assets/xuv.jpeg">
+        <ion-card-header>
+          <ion-card-title>XYV 700</ion-card-title>
+          <ion-card-title>20 per km</ion-card-title>
+          <ion-card-subtitle>Book Your Texi now</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          
+        </ion-card-content>
+        <ion-button >book</ion-button>
+        <ion-button >show</ion-button>
+      </ion-card>
+    </ion-col>
+  </ion-row>
   </div>
 </ion-content>
